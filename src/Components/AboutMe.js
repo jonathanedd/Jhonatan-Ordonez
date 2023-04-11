@@ -34,17 +34,20 @@ const AboutMe = () => {
           laboriosam nihil eius!
         </span>
 
-        <a href={cv}>Download CV</a>
+        <a className="download-cv" href={cv}>
+          Download CV
+        </a>
+
         <div className="about-icons">
-          <i>
-            <GrLinkedinOption onClick={handleLinkedIn} />
-          </i>
-          <i>
-            <GrGithub onClick={handleGitHub} />
-          </i>
-          <i>
-            <GrInstagram onClick={handleInsta} />
-          </i>
+          <a>
+            <GrLinkedinOption className="icon" onClick={handleLinkedIn} />
+          </a>
+          <a >
+            <GrGithub className="icon" onClick={handleGitHub} />
+          </a>
+          <a >
+            <GrInstagram className="icon" onClick={handleInsta} />
+          </a>
         </div>
       </div>
 
