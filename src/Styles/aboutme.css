@@ -1,0 +1,107 @@
+.about-me-main {
+  background-color: #1d1d35;
+  display: grid;
+  grid-template-columns: 60% 10%;
+  width: 90%;
+  margin: auto;
+}
+.about-me-text {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-rows: 2% 25% 35% 10% 10%;
+}
+
+.about-me-text h5 {
+  color: #17b07f;
+  font-family: "Roboto Mono";
+
+  font-weight: 400;
+}
+.about-me-text h3 {
+  font-family: "Calibri";
+  color: #dde5db;
+  font-weight: 800;
+  font-size: 2rem;
+}
+.about-me-text span {
+  color: #9bb0a5;
+  font-weight: lighter;
+}
+
+.about-me-text a {
+  font-family: "Roboto Mono";
+  font-size: 0.9rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+  border: #17b07f solid 0.5px;
+  background: transparent;
+  color: #17b07f;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.about-icons {
+  padding-top: 2rem;
+}
+.about-icons i {
+  color: #17b07f;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.about-me-main img {
+  border: #17b07f solid 1px;
+  border-radius: 2rem;
+  width: 200px;
+  margin: auto;
+  filter: grayscale(100%);
+  transition: all 0.8s;
+}
+.about-me-main img:hover {
+  filter: grayscale(0%);
+  transition: all 0.8s;
+}
+
+/*  MEDIA QUERIES */
+@media only screen and (max-width: 675px) {
+  .about-me-main {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .about-me-text {
+    width: 90%;
+    text-align: left;
+    display: grid;
+    grid-template-rows: 5% 25% 45% 10% 10%;
+  }
+
+  .about-me-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .about-me-main a {
+    margin: auto;
+  }
+
+  .about-icons {
+    margin: auto;
+  }
+  .about-icons i {
+    font-size: 1.2rem;
+  }
+
+  .about-me-main img {
+    filter: grayscale(100%);
+    transition: 1s;
+  }
+  .about-me-main img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+  }
+}
