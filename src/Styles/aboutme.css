@@ -78,6 +78,7 @@
 .about-me-main img:hover {
   filter: grayscale(0%);
   transition: all 0.8s;
+  transform: scale(1.1);
 }
 
 /*  MEDIA QUERIES */
