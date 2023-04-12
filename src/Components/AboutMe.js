@@ -39,13 +39,13 @@ const AboutMe = () => {
         </a>
 
         <div className="about-icons">
-          <a href="#">
+          <a >
             <GrLinkedinOption className="icon" onClick={handleLinkedIn} />
           </a>
-          <a href="#">
+          <a >
             <GrGithub className="icon" onClick={handleGitHub} />
           </a >
-          <a href="#">
+          <a >
             <GrInstagram className="icon" onClick={handleInsta} />
           </a>
         </div>
