@@ -15,13 +15,13 @@ const Nav = () => {
   return (
     <div className="main-nav">
       <div className={`nav-links ${showMenu && "active"}`}>
-        <a className="link" href="/">1. About</a>
+        <a className="link" href="/about">1. About</a>
 
-        <a className="link" href="/">2. Experience</a>
+        <a className="link" href="/experience">2. Experience</a>
 
-        <a className="link" href="/">3. Work</a>
+        <a className="link" href="/work">3. Work</a>
 
-        <a className="link" href="/">4. Contact</a>
+        <a className="link" href="/contact">4. Contact</a>
       </div>
 
       <div className={`menu-icon ${showMenu && "active" }`} onClick={handleMenu} >
