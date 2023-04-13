@@ -49,10 +49,10 @@
     width: 100%;
     height: -web-fill-available;
     transform: translateX(-100%);
-    transition: 0.3s ease all;
+    transition: 1s ease all;
   }
 
-  .menu-icon.active{
+  .menu-icon.active {
     color: #17b07f;
   }
 
