@@ -24,8 +24,8 @@ const AboutMe = () => {
   return (
     <div className="about-me-main">
       <div className="about-me-text">
-        <h5>Hi, my name is</h5>
-        <h3>Jhonatan Ordonez</h3>
+        <h5>About me</h5>
+        <h3>Web developer</h3>
 
         <span>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium

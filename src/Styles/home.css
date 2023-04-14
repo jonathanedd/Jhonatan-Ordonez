@@ -1,0 +1,60 @@
+.home-main {
+  background-color: #1d1d35;
+  display: grid;
+  grid-template-columns: 100;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+.home-text {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  display: grid;
+  grid-template-rows: 2% 25% 20% 30%;
+  grid-template-columns: 100%;
+}
+
+.home-text h5 {
+  color: #17b07f;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+}
+.home-text h1 {
+  font-family: "Calibri";
+  color: #dde5db;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.home-text h2 {
+  font-family: "Calibri";
+  color: #dde5db;
+  font-weight: 900;
+}
+.home-text span {
+  color: #9bb0a5;
+  font-weight: lighter;
+  width: 60%;
+}
+.message-me {
+  font-family: "Roboto Mono";
+  font-size: 0.9rem;
+  width: 100px;
+  height: 20px;
+  border-radius: 0.5rem;
+  border: #17b07f solid 0.5px;
+  background: transparent;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  color: #17b07f;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+.message-me:hover{
+transform: scale(1.1);
+  transition: 0.5s;
+  color: #dde5db;
+  border: #dde5db solid 0.5px;
+}
