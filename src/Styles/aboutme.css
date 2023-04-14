@@ -11,20 +11,21 @@
   margin: auto;
   text-align: left;
   display: grid;
-  grid-template-rows: 2% 25% 35% 10% 10%;
+  grid-template-rows: 0% 30% 30% 10% 10%;
 }
 
 .about-me-text h5 {
   color: #17b07f;
   font-family: "Roboto Mono";
+  font-size: 1rem;
+  font-weight: 400;
 
   font-weight: 400;
 }
 .about-me-text h3 {
-  font-family: "Calibri";
   color: #dde5db;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .about-me-text span {
   color: #9bb0a5;
