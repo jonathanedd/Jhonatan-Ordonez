@@ -17,6 +17,7 @@
 
 .home-text h5 {
   color: #17b07f;
+
   font-family: "Roboto Mono";
   font-size: 1rem;
   font-weight: 400;
@@ -66,19 +67,43 @@
     display: grid;
     grid-template-columns: 100%;
     width: 100vw;
-    height: max-content;
+    height: 100vh;
   }
   .home-text {
-    width: 90%;
     text-align: left;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 10% 15%;
+    grid-template-rows: 5% 8% 25%;
+    width: 90vw;
+    height: 90vh;
   }
   .home-text h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
   .home-text h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
+  .home-text span {
+    width: 100%;
+  }
+  .message-me {
+    width: 8rem;
+  }
+}
+
+/* Animation */
+
+@keyframes caida {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.caida {
+  animation-name: caida;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
 }
