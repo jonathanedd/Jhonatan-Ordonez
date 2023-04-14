@@ -27,18 +27,6 @@
   font-size: 1.5rem;
   padding: 0.5rem;
 }
-.icon {
-  color: #17b07f;
-}
-hr.vertical {
-  width: 40%;
-}
-.nav-email {
-  color: #17b07f;
-  font-weight: lighter;
-  font-family: "Roboto Mono";
-  text-align: left;
-}
 
 /* MEDIA QUERY */
 @media only screen and (max-width: 675px) {
@@ -68,6 +56,26 @@ hr.vertical {
 
   .menu-icon {
     display: flex !important;
+    font-size: 2rem;
+  }
+  .icon {
     color: #17b07f;
+  }
+}
+
+/* ANIMATION FRO NAV */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .nav-links {
+    animation: slideInFromLeft 0.5s ease-in-out forwards;
   }
 }

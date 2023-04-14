@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../Styles/nav.css";
 
 //React icnos
-import { GrMenu } from "react-icons/gr";
+import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -32,10 +32,9 @@ const Nav = () => {
       </div>
 
       <div className={`menu-icon ${showMenu && "active"}`} onClick={handleMenu}>
-        <GrMenu className="icon" />
+        <HiOutlineMenuAlt2 className="icon" />
       </div>
-
-      
+      <hr />
     </div>
   );
 };
