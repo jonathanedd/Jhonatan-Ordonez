@@ -90,7 +90,7 @@
     display: grid;
     grid-template-columns: 100%;
     width: 100vw;
-    height: 100vh;
+    height: max-content;
   }
 
   .about-me-text {
