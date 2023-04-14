@@ -23,7 +23,7 @@ const Nav = () => {
           to="about"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={0}
           duration={500}
         >
           <span className="number">01. </span>About
