@@ -90,6 +90,7 @@
   .about-me-main {
     display: grid;
     grid-template-columns: 100%;
+    grid-template-rows: 50% 40%;
     width: 100vw;
     height: 100vh;
   }
@@ -98,7 +99,7 @@
     width: 90%;
     text-align: left;
     display: grid;
-    grid-template-rows: 5% 25% 45% 10% 10%;
+    grid-template-rows: 10% 20% 50% 10%;
   }
 
   .about-me-text h3 {
