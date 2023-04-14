@@ -24,21 +24,21 @@ const AboutMe = () => {
   return (
     <div className="about-me-main">
       <div className="about-me-text">
-        <h5>About me</h5>
-        <h3>Web developer</h3>
+        <h5 className="caida">About me</h5>
+        <h3 className="caida">Web developer</h3>
 
-        <span>
+        <span className="caida">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium
           unde dolorem, repudiandae reiciendis odio iure non officiis corporis
           beatae earum quidem, ratione ad quod mollitia voluptates delectus
           laboriosam nihil eius!
         </span>
 
-        <a className="download-cv" href={cv}>
+        <a className=" caida download-cv" href={cv}>
           Download CV
         </a>
 
-        <div className="about-icons">
+        <div className="caida about-icons">
           <a href="/">
             <GrLinkedinOption className="icon" onClick={handleLinkedIn} />
           </a>

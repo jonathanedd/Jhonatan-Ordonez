@@ -12,4 +12,20 @@ code {
     monospace;
 }
 
+/* Animation */
+@keyframes caida {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.caida {
+  animation-name: caida;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;1,700&display=swap");
