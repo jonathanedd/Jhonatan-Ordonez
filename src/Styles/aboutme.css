@@ -99,7 +99,7 @@
     width: 90%;
     text-align: left;
     display: grid;
-    grid-template-rows: 10% 20% 50% 10%;
+    grid-template-rows: 10% 20% 50% 15%;
   }
 
   .about-me-text h3 {
