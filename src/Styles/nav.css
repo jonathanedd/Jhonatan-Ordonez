@@ -4,6 +4,7 @@
   margin: auto;
   height: 50px;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
@@ -28,6 +29,15 @@
 }
 .icon {
   color: #17b07f;
+}
+hr.vertical {
+  width: 40%;
+}
+.nav-email {
+  color: #17b07f;
+  font-weight: lighter;
+  font-family: "Roboto Mono";
+  text-align: left;
 }
 
 /* MEDIA QUERY */
@@ -54,7 +64,6 @@
 
   .menu-icon.active {
     color: #17b07f;
-    
   }
 
   .menu-icon {

@@ -11,7 +11,7 @@
   margin: auto;
   text-align: left;
   display: grid;
-  grid-template-rows: 0% 20% 25% 25%;
+  grid-template-rows: 5% 35% 30% 40%;
   grid-template-columns: 100%;
 }
 
@@ -28,8 +28,8 @@
   font-size: 5rem;
 }
 .home-text h2 {
-  color: #dde5db;
-  opacity: 0.5;
+  color: #9bb095;
+
   font-weight: 900;
   font-size: 3rem;
 }
@@ -60,7 +60,6 @@
   color: #dde5db;
   border: #dde5db solid 0.5px;
 }
-
 
 /*  MEDIA QUERIES */
 @media only screen and (max-width: 675px) {

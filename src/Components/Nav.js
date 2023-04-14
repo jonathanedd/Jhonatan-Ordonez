@@ -9,24 +9,33 @@ const Nav = () => {
 
   const handleMenu = () => {
     setShowMenu(!showMenu);
-    
   };
 
   return (
     <div className="main-nav">
       <div className={`nav-links ${showMenu && "active"}`}>
-        <a className="link" href="/about">1. About</a>
+        <a className="link" href="/about">
+          1. About
+        </a>
 
-        <a className="link" href="/experience">2. Experience</a>
+        <a className="link" href="/experience">
+          2. Experience
+        </a>
 
-        <a className="link" href="/work">3. Work</a>
+        <a className="link" href="/work">
+          3. Work
+        </a>
 
-        <a className="link" href="/contact">4. Contact</a>
+        <a className="link" href="/contact">
+          4. Contact
+        </a>
       </div>
 
-      <div className={`menu-icon ${showMenu && "active" }`} onClick={handleMenu} >
+      <div className={`menu-icon ${showMenu && "active"}`} onClick={handleMenu}>
         <GrMenu className="icon" />
       </div>
+
+      
     </div>
   );
 };

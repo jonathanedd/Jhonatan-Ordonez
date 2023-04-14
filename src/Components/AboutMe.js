@@ -50,8 +50,8 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-
       <img src={imageMe} alt="about-me" />
+      <hr />
     </div>
   );
 };

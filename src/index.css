@@ -15,9 +15,9 @@ code {
 hr {
   display: block;
   height: 1px;
-  width: 30%;
+  width: 50%;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 0.5px solid #2f4858;
   margin: auto;
   padding: 0;
 }

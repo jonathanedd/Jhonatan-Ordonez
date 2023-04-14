@@ -11,7 +11,7 @@
   margin: auto;
   text-align: left;
   display: grid;
-  grid-template-rows: 0% 30% 30% 10% 10%;
+  grid-template-rows: 10% 30% 45% 15%;
 }
 
 .about-me-text h5 {
@@ -36,6 +36,7 @@
   font-family: "Roboto Mono";
   font-size: 0.9rem;
   width: fit-content;
+  height: 20px;
   border-radius: 0.5rem;
   border: #17b07f solid 0.5px;
   background: transparent;
