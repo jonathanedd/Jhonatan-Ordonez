@@ -5,7 +5,7 @@ import "../Styles/nav.css";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 
 //React Scroll
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
