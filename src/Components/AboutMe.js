@@ -22,7 +22,7 @@ const AboutMe = () => {
     window.open("https://www.instagram.com/jonaedd/");
   };
   return (
-    <div className="about-me-main">
+    <div className="about-me-main" id="about">
       <div className="about-me-text">
         <h5 className="caida">About me</h5>
         <h3 className="caida">Web developer</h3>

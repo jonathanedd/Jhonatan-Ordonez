@@ -7,6 +7,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 .nav-links a {
@@ -15,6 +16,10 @@
   font-family: "Roboto Mono";
   font-size: 0.8rem;
   margin: 1rem;
+  
+}
+.link{
+  cursor: pointer;
 }
 
 .link:hover {

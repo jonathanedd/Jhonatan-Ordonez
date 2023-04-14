@@ -5,6 +5,7 @@
   height: 100vh;
   width: 90%;
   margin: auto;
+ 
 }
 .about-me-text {
   width: 50%;
@@ -83,6 +84,10 @@
   filter: grayscale(0%);
   transition: all 0.8s;
   transform: scale(1.1);
+}
+/* 01 02 03 04 COLORS */
+.number {
+  color:#17b07f;
 }
 
 /*  MEDIA QUERIES */
