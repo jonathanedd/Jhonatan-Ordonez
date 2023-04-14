@@ -12,6 +12,16 @@ code {
     monospace;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  width: 30%;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: auto;
+  padding: 0;
+}
+
 /* Animation */
 @keyframes caida {
   0% {

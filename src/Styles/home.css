@@ -61,6 +61,7 @@
   border: #dde5db solid 0.5px;
 }
 
+
 /*  MEDIA QUERIES */
 @media only screen and (max-width: 675px) {
   .home-main {
@@ -90,5 +91,3 @@
     width: 8rem;
   }
 }
-
-

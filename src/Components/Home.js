@@ -19,6 +19,7 @@ const Home = () => {
           Message me
         </a>
       </div>
+      <hr />
     </div>
   );
 };
