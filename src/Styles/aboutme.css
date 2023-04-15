@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 60% 10%;
   height: 100vh;
-  width: 90%;
+  width: 100%;
   margin: auto;
  
 }
@@ -85,10 +85,7 @@
   transition: all 0.8s;
   transform: scale(1.1);
 }
-/* 01 02 03 04 COLORS */
-.number {
-  color:#17b07f;
-}
+
 
 /*  MEDIA QUERIES */
 @media only screen and (max-width: 675px) {

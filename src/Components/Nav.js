@@ -20,6 +20,17 @@ const Nav = () => {
         <Link
           className="link"
           activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <span className="number">01. </span>Home
+        </Link>
+        <Link
+          className="link"
+          activeClass="active"
           to="about"
           spy={true}
           smooth={true}

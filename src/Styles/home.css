@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 100;
   height: 100vh;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .home-text {
