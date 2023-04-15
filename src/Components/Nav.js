@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Styles/nav.css";
 
 //React icnos
@@ -13,6 +13,20 @@ const Nav = () => {
   const handleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (event.target.closest(".main-nav") === null) {
+        setShowMenu(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="main-nav">
