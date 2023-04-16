@@ -16,7 +16,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (event.target.closest(".main-nav") === null) {
+      if (event.target.closest(".menu-icon") === null) {
         setShowMenu(false);
       }
     };
@@ -57,12 +57,20 @@ const Nav = () => {
         {/* These ones below are pending to adjust 
         the react-scroll animation */}
 
+        <Link
+          className="link"
+          activeClass="active"
+          to="work"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <span className="number">01. </span>Work
+        </Link>
+
         <a className="link" href="/experience">
           <span className="number">02. </span>Experience
-        </a>
-
-        <a className="link" href="/work">
-          <span className="number">03. </span>Work
         </a>
 
         <a className="link" href="/contact">
