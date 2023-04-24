@@ -4,8 +4,8 @@ import "../Styles/work.css";
 const Work = () => {
   return (
     <div className="main-work" id="work">
-      This is my work
-      <h3>Welcome</h3>
+      (I am Bulding this Section)
+      <h3>Loading ...</h3>
     </div>
   );
 };
