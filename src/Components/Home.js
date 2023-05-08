@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../Styles/home.css";
 
+import { FaExchangeAlt } from "react-icons/fa";
+
 const textEng = [
   "I'm a Front-end software developer specializing in creating functional user interfaces.",
   <br />,
@@ -8,19 +10,18 @@ const textEng = [
   "Information system for academic management.",
 ];
 
+const textEsp = [
+  "Soy desarrollador Front-end y me especializo en crear interfaces de usuario funcionales.",
+  <br />,
+  "Me encanta React y todas sus herramientas como Redux y los Hooks. Ahora mismo me encuentro trabajando en un proyecto de software para un colegio, ",
+  "es un sistema de información para la gestión académica S.I.G.A.",
+];
+
 const Home = () => {
   const [language, setLanguage] = useState(true);
-  
-
-  const textEsp = [
-    "Soy desarrollador Front-end y me especializo en crear interfaces de usuario funcionales.",
-    <br />,
-    "Me encanta React y todas sus herramientas como Redux y los Hooks. Ahora mismo me encuentro trabajando en un proyecto de software para colegio, ",
-    "es un sistema de información para la gestión académica S.I.G.A.",
-  ];
 
   const handleLanguage = () => {
-    setLanguage(!language)
+    setLanguage(!language);
   };
 
   return (
@@ -35,10 +36,11 @@ const Home = () => {
           nihil eius necessitatibus a, autem ipsam nesciunt nisi repellendus
           consequuntur itaque.
         </span> */}
-
-        <span className="caida">
-          {language ? textEng : textEsp} <button onClick={handleLanguage}>Change language</button>{" "}
-        </span>
+        <span className="caida">{language ? textEng : textEsp} </span>
+        <FaExchangeAlt
+          onClick={handleLanguage}
+          className={language ? "white" : "green"}
+        />
 
         <a className="caida message-me" href="/Home">
           Message me

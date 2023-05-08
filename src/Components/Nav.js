@@ -51,7 +51,7 @@ const Nav = () => {
           offset={0}
           duration={500}
         >
-          <span className="number">01. </span>About
+          <span className="number">02. </span>About
         </Link>
 
         {/* These ones below are pending to adjust 
@@ -66,15 +66,15 @@ const Nav = () => {
           offset={0}
           duration={500}
         >
-          <span className="number">01. </span>Work
+          <span className="number">03. </span>Work
         </Link>
 
         <a className="link" href="/experience">
-          <span className="number">02. </span>Experience
+          <span className="number">04. </span>Experience
         </a>
 
         <a className="link" href="/contact">
-          <span className="number">04. </span>Contact
+          <span className="number">05. </span>Contact
         </a>
       </div>
 
