@@ -9,8 +9,7 @@ const Work = () => {
   return (
     <div className="main-work" id="work">
       <div className="left-box">
-        <h3>03. Check out some of my wok</h3>
-
+        <h3> 03. Check out my work </h3>
         <img onClick={marvelApi} src={mainMarvel} alt="" />
       </div>
 

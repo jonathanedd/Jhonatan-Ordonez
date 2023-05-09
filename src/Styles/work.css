@@ -35,7 +35,7 @@
   font-weight: lighter;
   text-align: right;
 }
-.right-box li{
+.right-box li {
   margin: 0.3rem;
 }
 .span-box {
@@ -64,4 +64,23 @@
   filter: grayscale(0%);
   transition: all 0.8s;
   /* transform: scale(1.1); */
+}
+@media only screen and (max-width: 675px) {
+  .main-work {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+  }
+  .left-box {
+    width: 90%;
+  }
+
+  .right-box {
+    display: grid;
+    grid-template-rows: 10% 20% 60% 10%;
+  }
+  .right-box h3 {
+    font-size: 1.8rem;
+  }
 }
