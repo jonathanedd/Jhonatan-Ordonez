@@ -1,22 +1,55 @@
 #work {
   height: 100vh;
 }
-.main-work {
+
+.marvel-api {
+  align-items: center;
   background-color: #1d1d35;
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
   margin: auto;
   width: 70%;
-  align-items: center;
+  height: 100%;
+}
+
+.left-box {
+  text-align: left;
+}
+.left-box h3 {
+  display: inline;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+.check-work {
+  color: #dde5db;
+}
+
+.left-box img {
+  border: #17b07f solid 1px;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  cursor: pointer;
+  width: 115%;
+  margin: auto;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+.left-box img:hover {
+  filter: grayscale(0%);
+  transition: all 0.5s;
+  transform: scale(1.01);
 }
 
 .right-box {
   text-align: right;
   width: 100%;
   display: grid;
-  grid-template-rows: 10% 30% 50% 10%;
+  grid-template-rows: 12% 25% 50%;
 }
 .right-box h5 {
+  background-color: transparent;
   color: #17b07f;
   font-family: "Roboto Mono";
   font-size: 1rem;
@@ -25,8 +58,10 @@
 }
 .right-box h3 {
   color: #dde5db;
+  background-color: transparent;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-family: "Roboto Mono";
   text-align: right;
 }
 
@@ -35,52 +70,61 @@
   font-weight: lighter;
   text-align: right;
 }
-.right-box li {
+.marvel-list {
   margin: 0.3rem;
+  background-color: transparent;
+  font-family: "Roboto Mono";
+  color: #9bb0a5;
+  font-size: 0.9rem;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.marvel-list li {
+  padding-left: 2rem;
+  padding-top: 0.5rem;
 }
 .span-box {
-  /* opacity: 80%; */
-  background-color: black;
+  background-color: #4b4453;
+  border-radius: 0.3rem;
   height: max-content;
   padding: 1rem;
   position: relative;
 }
 
-.left-box {
-  text-align: left;
-  width: 100%;
+/*  */
+.another-api {
+  height: 100%;
 }
-.left-box img {
-  border: #17b07f solid 1px;
-  /* border-radius: 2rem; */
-  box-shadow: 2px 2px 4px rgb(0, 0, 0);
-  cursor: pointer;
-  width: 115%;
-  margin: auto;
-  filter: grayscale(100%);
-  transition: all 0.8s;
-}
-.left-box img:hover {
-  filter: grayscale(0%);
-  transition: all 0.8s;
-  /* transform: scale(1.1); */
-}
+
 @media only screen and (max-width: 675px) {
-  .main-work {
+  .marvel-api {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 80% 10%;
     height: 100%;
   }
   .left-box {
     width: 90%;
   }
+  .left-box h3 {
+    font-size: 1rem;
+  }
+  .left-box img {
+    filter: grayscale(0%);
+  }
 
   .right-box {
     display: grid;
-    grid-template-rows: 10% 20% 60% 10%;
+    grid-template-rows: 50% 50%;
+  }
+  .right-box h5 {
+    display: none;
   }
   .right-box h3 {
     font-size: 1.8rem;
+  }
+  .span-box {
+    display: none;
   }
 }

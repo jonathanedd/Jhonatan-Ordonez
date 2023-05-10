@@ -6,8 +6,7 @@ import { FaExchangeAlt } from "react-icons/fa";
 const textEng = [
   "I'm a Front-end software developer specializing in creating functional user interfaces.",
   <br />,
-  " I love React and its tools such Redux and Hooks. Right now I´m focused on a new school sofware project called S.I.G.A which means ",
-  "Information system for academic management.",
+  " I love React, I use React Redux and Hooks. Right now I´m focused on developing a new Information system for academic management project.",
 ];
 
 const textEsp = [

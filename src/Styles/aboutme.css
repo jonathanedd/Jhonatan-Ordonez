@@ -75,11 +75,11 @@
   width: 200px;
   margin: auto;
   filter: grayscale(100%);
-  transition: all 0.8s;
+  transition: all 0.5s;
 }
 .about-me-main img:hover {
   filter: grayscale(0%);
-  transition: all 0.8s;
+  transition: all 0.5s;
   transform: scale(1.1);
 }
 
@@ -116,11 +116,10 @@
   }
 
   .about-me-main img {
-    filter: grayscale(100%);
-    transition: 1s;
+    filter: grayscale(0%);
   }
-  .about-me-main img:hover {
+  /* .about-me-main img:hover {
     filter: grayscale(0%);
     transition: 1s;
-  }
+  } */
 }
