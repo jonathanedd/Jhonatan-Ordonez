@@ -98,13 +98,21 @@
 }
 
 @media only screen and (max-width: 675px) {
+  /* .main-work {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  } */
   .marvel-api {
+    justify-content: center;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 80% 10%;
-    height: 100%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    height:100%;
   }
   .left-box {
+    
     width: 90%;
   }
   .left-box h3 {
@@ -116,15 +124,19 @@
 
   .right-box {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 10% 40% 10%;
+    grid-gap: 10px;
   }
   .right-box h5 {
-    display: none;
+    /* display: none; */
   }
   .right-box h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .span-box {
+    display: none;
+  }
+  .marvel-list {
     display: none;
   }
 }
