@@ -40,7 +40,7 @@ const Home = () => {
         </span> */}
         <span className="caida">{language ? textEng : textEsp} </span>
 
-        <a onClick={handleLanguage} className="caida translate">
+        <a onClick={handleLanguage} className="caida translate" href="/">
           {language ? "Español" : "English"}
         </a>
 

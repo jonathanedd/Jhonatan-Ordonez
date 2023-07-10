@@ -4,7 +4,7 @@ import AboutMe from "./Components/AboutMe";
 import Home from "./Components/Home";
 import Nav from "./Components/Nav";
 import Work from "./Components/Work";
-import { FaDoorClosed } from "react-icons/fa";
+
 
 function App() {
   const [showWork, setShowWork] = useState(false);
