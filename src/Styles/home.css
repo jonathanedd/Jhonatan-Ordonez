@@ -11,13 +11,12 @@
   margin: auto;
   text-align: left;
   display: grid;
-  grid-template-rows: 5% 35% 30% 40%;
+  grid-template-rows: 10% 30% 30% 30% 30%;
   grid-template-columns: 100%;
 }
 
 .home-text h5 {
   color: #17b07f;
-
   font-family: "Roboto Mono";
   font-size: 1rem;
   font-weight: 400;
@@ -73,7 +72,7 @@
     text-align: left;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 15% 30% 55%;
+    grid-template-rows: 10% 15% 35% 55%;
     width: 90vw;
     height: max-content;
   }
@@ -86,12 +85,12 @@
   .home-text span {
     width: 100%;
   }
-.white{
-  background-color: #9bb095;
-}
-.green{
-  background-color: #17b07f;
-}
+  .white {
+    background-color: #9bb095;
+  }
+  .green {
+    background-color: #17b07f;
+  }
   .message-me {
     width: 8rem;
   }

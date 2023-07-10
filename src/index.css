@@ -38,4 +38,27 @@ hr {
   animation-timing-function: ease-in-out;
 }
 
+.translate {
+  font-family: "Roboto Mono";
+  font-size: 0.5rem;
+  width: 50px;
+  height: 10px;
+  border-radius: 0.5rem;
+  border: #17b07f solid 0.5px;
+  background: transparent;
+  box-shadow: 2px 2px 4px rgb(0, 0, 0);
+  color: #17b07f;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+.translate:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: #dde5db;
+  border: #dde5db solid 0.5px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;1,700&display=swap");

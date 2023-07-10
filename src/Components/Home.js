@@ -1,19 +1,12 @@
 import React, { useState } from "react";
 import "../Styles/home.css";
 
-import { FaExchangeAlt } from "react-icons/fa";
-
 const textEng = [
-  "I'm a Front-end software developer specializing in creating functional user interfaces.",
-  <br />,
-  " I love React, I use React Redux and Hooks. Right now I´m focused on developing a new Information system for academic management project.",
+  "I am passionate about web front-end programming, specializing in creating functional user interfaces.",
 ];
 
 const textEsp = [
-  "Soy desarrollador Front-end y me especializo en crear interfaces de usuario funcionales.",
-  <br />,
-  "Me encanta React y todas sus herramientas como Redux y los Hooks. Ahora mismo me encuentro trabajando en un proyecto de software para un colegio, ",
-  "es un sistema de información para la gestión académica S.I.G.A.",
+  "Soy un apasionado por el desarollo web front-end y me especializo en la creación de interfaces de usuario funcionales.",
 ];
 
 const Home = () => {
@@ -26,9 +19,19 @@ const Home = () => {
   return (
     <div className="home-main" id="home">
       <div className="home-text">
-        <h5 className="caida">Hi, my name is</h5>
+        {language ? (
+          <h5 className="caida">Hi, my name is</h5>
+        ) : (
+          <h5 className="caida">Hola, me llamo</h5>
+        )}
+
         <h1 className="caida">Jhonatan Ordonez</h1>
-        <h2 className="caida">I build things for the web.</h2>
+        {language ? (
+          <h2 className="caida">I build things for the web.</h2>
+        ) : (
+          <h2 className="caida">Hago desarrollo Web</h2>
+        )}
+
         {/* <span className="caida">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, nam?
           Eaque dicta voluptatum vero nemo dolor, accusamus maxime dignissimos
@@ -36,10 +39,10 @@ const Home = () => {
           consequuntur itaque.
         </span> */}
         <span className="caida">{language ? textEng : textEsp} </span>
-        <FaExchangeAlt
-          onClick={handleLanguage}
-          className={language ? "white" : "green"}
-        />
+
+        <a onClick={handleLanguage} className="caida translate">
+          {language ? "Español" : "English"}
+        </a>
 
         <a className="caida message-me" href="/Home">
           Message me
