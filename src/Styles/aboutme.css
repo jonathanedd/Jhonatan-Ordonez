@@ -1,5 +1,5 @@
 .about-me-main {
-  background-color: #1d1d35;
+  background-color: #07051b;
   display: grid;
   grid-template-columns: 60% 10%;
   height: 100vh;
@@ -72,7 +72,7 @@
   border: #17b07f solid 1px;
   border-radius: 2rem;
   box-shadow: 2px 2px 4px rgb(0, 0, 0);
-  width: 200px;
+  width: 300px;
   margin: auto;
   filter: grayscale(100%);
   transition: all 0.5s;
@@ -84,7 +84,7 @@
 }
 
 /*  MEDIA QUERIES */
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 400px) {
   .about-me-main {
     display: grid;
     grid-template-columns: 100%;
@@ -117,6 +117,7 @@
 
   .about-me-main img {
     filter: grayscale(0%);
+    width: 200px;
   }
   /* .about-me-main img:hover {
     filter: grayscale(0%);

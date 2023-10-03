@@ -20,10 +20,9 @@ const Work = () => {
           <h3 className="caida">Marvel</h3>
 
           <span className="span-box caida">
-            A minimal Marvel interface building from the Marvel API using React.
-            <br />
-            In this page I am using Axios to get some API data, useEffect and
-            React Router dom. This site was freely deployed in netlify
+            I've developed a sleek Marvel interface using React, built upon the
+            Marvel API. The implementation involved Axios for fetching API data,
+            utilizing useEffect, and integrating React Router DOM.
           </span>
 
           <div className="marvel-list">
@@ -31,7 +30,6 @@ const Work = () => {
             <li className="caida"> useEffect</li>
             <li className="caida"> Router Dom</li>
           </div>
-          
         </div>
       </div>
 

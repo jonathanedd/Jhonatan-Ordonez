@@ -4,7 +4,7 @@
 
 .marvel-api {
   align-items: center;
-  background-color: #1d1d35;
+  background-color: #07051b;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
@@ -93,9 +93,9 @@
 }
 
 /*  */
-.another-api {
+/* .another-api {
   height: 100%;
-}
+} */
 
 @media only screen and (max-width: 675px) {
   /* .main-work {
@@ -109,10 +109,9 @@
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
     grid-gap: 10px;
-    height:100%;
+    height: 100%;
   }
   .left-box {
-    
     width: 90%;
   }
   .left-box h3 {
