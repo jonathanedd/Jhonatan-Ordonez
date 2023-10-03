@@ -117,7 +117,7 @@
 
   .about-me-main img {
     filter: grayscale(0%);
-    width: 200px;
+    /* width: 200px; */
   }
   /* .about-me-main img:hover {
     filter: grayscale(0%);
